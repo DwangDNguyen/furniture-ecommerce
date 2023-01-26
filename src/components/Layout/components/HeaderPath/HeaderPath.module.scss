@@ -1,0 +1,35 @@
+.headerPath {
+    width: 100%;
+    min-height: 20vh;
+    background-color: var(--clr-primary-10);
+    color: var(--clr-primary-1);
+    display: flex;
+    align-items: center;
+}
+
+.headerPath-content {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    & .headerPath-home {
+        min-width: 0;
+        color: var(--clr-primary-3);
+        transition: var(--transition);
+        font-size: 3.5rem;
+        font-weight: 700;
+        letter-spacing: var(--spacing);
+        font-family: var(--font-family-4);
+        padding: 5px 0px;
+        padding-right: 16px;
+    }
+
+    & h3 {
+        font-size: 3.5rem;
+        font-family: var(--font-family-4);
+        letter-spacing: var(--spacing);
+        text-transform: capitalize;
+    }
+}
